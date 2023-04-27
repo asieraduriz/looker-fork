@@ -41,6 +41,12 @@ app.get("/", async (req, res) => {
   res.json({ ...user });
 });
 
+app.get("/demo", async (req, res) => {
+  const result = await sdk.ok(sdk.run_look({ look_id: 1419, result_format: 'json' }));
+
+  res.json({ ...result });
+});
+
 app.listen(port, async () => {
   console.log(`Backend Server listening on port ${port}`);
 });

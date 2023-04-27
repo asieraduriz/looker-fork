@@ -8,6 +8,7 @@
     "@looker/sdk": "^22.16.0",
     "@looker/sdk-rtl": "^21.4.0",
     "@looker/visualizations": "^1.1.1",
+    "@react-spring/web": "^9.7.2",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^12.1.0",
     "@testing-library/user-event": "^12.4.0",

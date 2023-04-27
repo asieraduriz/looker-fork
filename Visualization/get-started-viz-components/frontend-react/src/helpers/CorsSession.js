@@ -26,7 +26,7 @@ class SDKSession extends AuthSession {
   // This is a placeholder for the fetchToken function. 
   // It is modified to make it useful later.
   async fetchToken() {
-    return fetch("");
+    return fetch("http://localhost:3001");
   }
 
   activeToken = new AuthToken();
