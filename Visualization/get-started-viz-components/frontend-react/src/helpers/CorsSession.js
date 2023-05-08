@@ -82,5 +82,4 @@ const session = new SDKSessionEmbed({
   base_url: process.env.REACT_APP_LOOKER_API_HOST,
 });
 
-// This exports the SDK with the authenticated session
 export const sdk = new Looker40SDK(session);
